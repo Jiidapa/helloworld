@@ -1,0 +1,8 @@
+@import './style/_color.scss';
+
+#App {
+  background-color: $backgroundColor;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

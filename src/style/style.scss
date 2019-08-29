@@ -1,0 +1,36 @@
+@import './color', './font';
+
+
+.text-header {
+    font-family: $fontHeader, $fontThai;
+    letter-spacing: 0.5rem;
+    font-size: 2rem;
+    font-weight: 700;
+    color: $primary;
+}
+
+.text-topic {
+    font-family: $fontHeader, $fontThai;
+    font-size: 1rem;
+    font-weight: 700;
+    color: $primary;
+}
+
+.text-detail {
+    font-family: $fontHeader, $fontThai;
+    font-size: 1rem;
+}
+
+.topic-border-bottom {
+    border-bottom: 2px solid #623574;
+    width: 100%;
+}
+
+.text-link {
+    color: $info;
+}
+
+.text-link:hover {
+    color: $secondary;
+    text-decoration: none;
+}
