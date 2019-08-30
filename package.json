@@ -18,8 +18,9 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build"
   },
+  "homepage": "https://jiidapa.github.io/helloworld",
   "eslintConfig": {
     "extends": "react-app"
   },
