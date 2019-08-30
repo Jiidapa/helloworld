@@ -17,9 +17,7 @@
     "react-scripts": "3.1.1"
   },
   "scripts": {
-    "predeploy": "run-script build",
-    "deploy": "gh-pages -d build",
-    // "start": "react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -38,6 +36,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "homepage": "https://jiidapa.github.io/helloworld"
+  }
 }

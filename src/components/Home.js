@@ -12,9 +12,9 @@ export default class Home extends Component {
                         </div>
                     </div>
                     <div className="row mt-2">
-                        <div className="col-md-12">
+                        <div className="col-md-12 text-topic">
                             {/* I &#10084; React */}
-                            Hello World&#10084;
+                            Jida Hello World&#10084;
                         </div>
                     </div>
                 </div>
