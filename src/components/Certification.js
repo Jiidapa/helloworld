@@ -35,7 +35,7 @@ export default class Certification extends Component {
                                             <div className="col-md-2 text-topic" key={cert.id}>
                                                 {cert.year}
                                             </div>
-                                            <div className="col-md-10 text-detail" key={cert.id}>
+                                            <div className="col-md-10 text-detail">
                                                 {cert.name}
                                             </div>
                                         </div>

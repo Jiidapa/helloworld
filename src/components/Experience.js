@@ -3,6 +3,16 @@ import Header from '../components/Header';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { fas } from "@fortawesome/free-solid-svg-icons";
+import pig1 from '../images/pig-food/pig1.jpg';
+import pig2 from '../images/pig-food/pig2.JPG';
+import pig3 from '../images/pig-food/pig3.jpg';
+import krixxi1 from '../images/krixxi/krixxi1.jpg';
+import krixxi2 from '../images/krixxi/krixxi2.jpg';
+import easy1 from '../images/easyjob/easy1.jpg';
+import easy2 from '../images/easyjob/easy2.jpg';
+import easy3 from '../images/easyjob/easy3.jpg';
+import easy4 from '../images/easyjob/easy4.jpg';
+import easy5 from '../images/easyjob/easy4.jpg';
 
 library.add(fas);
 
@@ -50,6 +60,23 @@ export default class Experience extends Component {
                             {this.state.nsc.detail}
                         </div>
                     </div>
+                    <div className="row mt-2">
+                        <div className="col-md-4">
+                            <div className="card" style={{ width: '18rem' }}>
+                                <img src={pig1} className="card-img-top" alt="..." />
+                            </div>
+                        </div>
+                        <div className="col-md-4">
+                            <div className="card" style={{ width: '18rem' }}>
+                                <img src={pig2} className="card-img-top" alt="..." />
+                            </div>
+                        </div>
+                        <div className="col-md-4">
+                            <div className="card" style={{ width: '18rem' }}>
+                                <img src={pig3} className="card-img-top" alt="..." />
+                            </div>
+                        </div>
+                    </div>
 
                     <div className="row mt-3">
                         <div className="col-md-12 text-topic">
@@ -72,6 +99,18 @@ export default class Experience extends Component {
                             {this.state.startup.detail}
                         </div>
                     </div>
+                    <div className="row mt-2">
+                        <div className="col-md-4">
+                            <div className="card" style={{ width: '18rem' }}>
+                                <img src={krixxi1} className="card-img-top" alt="..." />
+                            </div>
+                        </div>
+                        <div className="col-md-4">
+                            <div className="card" style={{ width: '18rem' }}>
+                                <img src={krixxi2} className="card-img-top" alt="..." />
+                            </div>
+                        </div>
+                    </div>
 
                     <div className="row mt-3">
                         <div className="col-md-12 text-topic">
@@ -92,6 +131,33 @@ export default class Experience extends Component {
                         </div>
                         <div className="col-md-10 text-detail">
                             {this.state.battleground.detail}
+                        </div>
+                    </div>
+                    <div className="row mt-2">
+                        <div className="col-md-4">
+                            <div className="card" style={{ width: '18rem' }}>
+                                <img src={easy3} className="card-img-top" alt="..." />
+                            </div>
+                        </div>
+                        <div className="col-md-4">
+                            <div className="card" style={{ width: '18rem' }}>
+                                <img src={easy4} className="card-img-top" alt="..." />
+                            </div>
+                        </div>
+                        <div className="col-md-4">
+                            <div className="card" style={{ width: '18rem' }}>
+                                <img src={easy5} className="card-img-top" alt="..." />
+                            </div>
+                        </div>
+                        <div className="col-md-4 mt-2">
+                            <div className="card" style={{ width: '18rem' }}>
+                                <img src={easy1} className="card-img-top" alt="..." />
+                            </div>
+                        </div>
+                        <div className="col-md-4 mt-2">
+                            <div className="card" style={{ width: '18rem' }}>
+                                <img src={easy2} className="card-img-top" alt="..." />
+                            </div>
                         </div>
                     </div>
                 </div>

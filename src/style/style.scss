@@ -16,6 +16,13 @@
     color: $primary;
 }
 
+.text-topic-secondary{
+    font-family: $fontHeader, $fontThai;
+    font-size: 1rem;
+    font-weight: 700;
+    color: $info;
+}
+
 .text-detail {
     font-family: $fontHeader, $fontThai;
     font-size: 1rem;
@@ -33,4 +40,9 @@
 .text-link:hover {
     color: $secondary;
     text-decoration: none;
+}
+
+.nav-color{
+    background-color: #623574 !important;
+    font-family: $fontHeader, $fontThai;
 }
