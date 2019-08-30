@@ -17,10 +17,10 @@
     "react-scripts": "3.1.1"
   },
   "scripts": {
-    "predeploy": "react-scripts build",
+    "predeploy": "run-script build",
     "deploy": "gh-pages -d build",
     // "start": "react-scripts start",
-    // "build": "react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
