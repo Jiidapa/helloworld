@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import * as Scroll from 'react-scroll';
+import { Link, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 import './App.scss';
 import Home from './components/Home';
 import Profile from './components/Profile';
@@ -22,25 +24,25 @@ export default class App extends Component {
               <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav mr-auto">
                   <li className="nav-item active">
-                    <a className="nav-link" href="#home" rel="no">Home <span className="sr-only">(current)</span></a>
+                    <Link className="nav-link Menu__MenuTrigger Menu_Border" to="home" rel="no">Home <span className="sr-only">(current)</span></Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#profile" rel="no">Profile</a>
+                    <Link className="nav-link Menu__MenuTrigger Menu_Border" to="profile" rel="no">Profile</Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#education" rel="no">Education</a>
+                    <Link className="nav-link Menu__MenuTrigger Menu_Border" to="education" rel="no">Education</Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#experience" rel="no">Experience</a>
+                    <Link className="nav-link Menu__MenuTrigger Menu_Border" to="experience" rel="no">Experience</Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#certification" rel="no">Certification</a>
+                    <Link className="nav-link Menu__MenuTrigger Menu_Border" to="certification" rel="no">Certification</Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#careerhistory" rel="no">CareerHistory</a>
+                    <Link className="nav-link Menu__MenuTrigger Menu_Border" to="careerhistory" rel="no">CareerHistory</Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#skill" rel="no">Skill</a>
+                    <Link className="nav-link Menu__MenuTrigger Menu_Border" to="skill" rel="no">Skill</Link>
                   </li>
                 </ul>
               </div>
@@ -49,13 +51,13 @@ export default class App extends Component {
         </div>
 
         <div className="container mt-5">
-          <section id="home"><Home /></section>
-          <section id="profile"><Profile /></section>
-          <section id="education"><Education /></section>
-          <section id="experience"><Experience /></section>
-          <section id="certification"><Certification /></section>
-          <section id="careerhistory"><CareerHistory /></section>
-          <section id="skill"><Skill /></section>
+          <Element name="home"><Home /></Element>
+          <Element name="profile"><Profile /></Element>
+          <Element name="education"><Education /></Element>
+          <Element name="experience"><Experience /></Element>
+          <Element name="certification"><Certification /></Element>
+          <Element name="careerhistory"><CareerHistory /></Element>
+          <Element name="skill"><Skill /></Element>
         </div>
       </div >
     );

@@ -46,3 +46,29 @@
     background-color: #623574 !important;
     font-family: $fontHeader, $fontThai;
 }
+
+.Menu__MenuTrigger {
+    cursor: pointer;
+}
+
+
+    .Menu_Border {
+        display: inline-block;
+        color: #000;
+        text-decoration: none;
+    }
+    
+    .Menu_Border::after {
+        content: '';
+        display: block;
+        width: 0;
+        height: 2px;
+        background: #fff;
+        transition: width .3s;
+    }
+    
+    .Menu_Border:hover::after {
+        width: 100%;
+    }
+
+    

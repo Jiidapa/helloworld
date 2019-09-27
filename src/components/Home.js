@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Typist from 'react-typist';
 import logo from '../images/logo.png';
 
 export default class Home extends Component {
@@ -13,15 +14,14 @@ export default class Home extends Component {
                     </div>
                     <div className="row mt-2">
                         <div className="col-md-12 text-topic">
-                            {/* I &#10084; React */}
-                            Jida Hello World&#10084;
+                            <Typist>Jida Hello World&#10084;</Typist>
                         </div>
                     </div>
                 </div>
             </>
         )
     }
-}
+}   
 
 const styles = {
     logoSize : {
